@@ -24,6 +24,7 @@ def find_the_cheese(ingredients)
     i = 0 
     while i < ingredients.length do 
       return ingredients[i] if ingredients.include?(cheese_types)
+      i += 1 
     end
 end
 
